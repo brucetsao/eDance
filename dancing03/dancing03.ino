@@ -90,13 +90,13 @@ void loop()
      Serial.print(data & rightkey) ;
      Serial.print(")\n") ;
     if   ((data & upkey) == 8)
-        Serial1.write("U");
+        Serial1.write("1");
     if   ((data & downkey) == 2)
-        Serial1.write("D");
+        Serial1.write("2");
     if   ((data & leftkey) == 1)
-        Serial1.write("L");
+        Serial1.write("3");
     if   ((data & rightkey) == 4)
-        Serial1.write("R");
+        Serial1.write("4");
         
 }
 
